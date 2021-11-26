@@ -32,9 +32,9 @@
         <!-- Theme CSS -->
     	<link href="css/style.css" rel="stylesheet" media="screen">
         
-        <!-- Skin CSS
+        <!-- Skin CSS 
     	<link href="css/skin/coral/style.css" rel="stylesheet" media="screen">
-        <link href="css/skin/coral/navbar-style.css" rel="stylesheet" media="screen"> -->
+        <link href="css/skin/coral/navbar-style.css" rel="stylesheet" media="screen">-->
        
 	</head>
 
@@ -51,7 +51,7 @@
             </div>
             
         </div> <!--END of PRELOADER-->
-        
+      
         
         <!-- NAVIGATION -->    
     	<header id="nav-header">
@@ -237,19 +237,46 @@
             
   			<ul class="slides">
             	
-                
-    			<li>
-                	<!-- SLIDE IMAGE -->
-                	<div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(http://placehold.it/1920x1080); background-position:center 80%;">
+                <li>
+                	<!-- SLIDE VIDEO -->
+                	<div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(http://placehold.it/1920x1080);" data-mobile-image-position="72% center" data-tablet-image-position="75% center">
+                    	<div class="loader">
+ 							<div class="wrap"> 
+    							<div class="bar1"></div> 
+    							<div class="bar2"></div> 
+    							<div class="bar3"></div> 
+    							<div class="bar4"></div> 
+    							<div class="bar5"></div> 
+    							<div class="bar6"></div> 
+    							<div class="bar7"></div> 
+    							<div class="bar8"></div>
+    							<div class="bar7"></div> 
+    							<div class="bar8"></div>
+    							<div class="bar9"></div> 
+    							<div class="bar10"></div>
+  							</div>
+						</div>
+                    	
+                    	<video autoplay loop>
+  							<source src="video/my-video.mp4" type="video/mp4">
+  							Your browser does not support HTML5 video.
+						</video>
                     </div>
                     
                     <!-- SLIDE OVERLAY -->
-                    <div class="slide-overlay" style="opacity:0.3"> </div> 
-                                                      
-    			</li>
-         
+                    <div class="slide-overlay" style="opacity:0.3"> </div>                                                                      
+    			</li>                         
     			
-  			</ul><!-- END of MAIN SLIDER IMAGES -->   
+  			</ul><!-- END of MAIN SLIDER IMAGES -->      
+            
+            <!-- VIDEO AUDIO CONTROL -->
+          	<div class="video-audio-control js-control"> 
+          		<a class="play-pause" href="#">
+        			<div class="de-icon light-1 small-size inline">
+            			<i class="de-icon-play"></i>
+            		</div>
+        		</a>
+          	</div>        
             
 		</section><!-- ENF of MAIN SLIDER -->
         
@@ -608,7 +635,8 @@
         <!-- Custom Core Script -->
         <script type="text/javascript" src="js/script.js"></script>        
         <!-- Custom Additional Script -->
-        <script type="text/javascript" src="js/main-slider-fade.js"></script>      
-          
+        <script type="text/javascript" src="js/main-slider-fade.js"></script>
+        <script type="text/javascript" src="js/main-slider-video.js"></script>
+        
 	</body>
 </html>

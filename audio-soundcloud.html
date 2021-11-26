@@ -32,9 +32,9 @@
         <!-- Theme CSS -->
     	<link href="css/style.css" rel="stylesheet" media="screen">
         
-        <!-- Skin CSS
+        <!-- Skin CSS 
     	<link href="css/skin/coral/style.css" rel="stylesheet" media="screen">
-        <link href="css/skin/coral/navbar-style.css" rel="stylesheet" media="screen"> -->
+        <link href="css/skin/coral/navbar-style.css" rel="stylesheet" media="screen">-->
        
 	</head>
 
@@ -51,7 +51,7 @@
             </div>
             
         </div> <!--END of PRELOADER-->
-        
+      
         
         <!-- NAVIGATION -->    
     	<header id="nav-header">
@@ -199,9 +199,9 @@
                         	<div class="row">
                         		<div class="col-md-12">
 									
-                                    <div id="slide-couplename-wrapper" class="animation delay1 fadeInUp">
+                                    <div id="slide-couplename-wrapper">
                                     
-                                    	<div id="slide-couplename" class="scale75-onmobile">
+                                    	<div id="slide-couplename" class="scale75-onmobile animation delay1 fadeInUp">
                                             <div id="slide-his-name">
                                         		Albert
                                         	</div>
@@ -247,9 +247,46 @@
                     <div class="slide-overlay" style="opacity:0.3"> </div> 
                                                       
     			</li>
+                
+                <li>
+                	<!-- SLIDE IMAGE -->
+                	<div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(http://placehold.it/1920x1080);">
+                    </div>
+                    
+                    <!-- SLIDE OVERLAY -->
+                    <div class="slide-overlay" style="opacity:0.3"> </div> 
+                                                      
+    			</li>
+                
+                <li>
+                	<!-- SLIDE IMAGE -->
+                	<div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(http://placehold.it/1920x1080);">
+                    </div>
+                    
+                    <!-- SLIDE OVERLAY -->
+                    <div class="slide-overlay" style="opacity:0.3"> </div> 
+                                                      
+    			</li>
          
     			
-  			</ul><!-- END of MAIN SLIDER IMAGES -->   
+  			</ul><!-- END of MAIN SLIDER IMAGES -->    
+            
+               
+            <!-- BACKGROUND MUSIC -->
+            <div class="video-audio-control">                
+                <!-- Soundcloud Embbed  --> 
+                <a id="soundcloud-button" href="#">
+        			<div class="de-icon light-1 small-size inline">
+            			<i class="de-icon-music-3"></i>
+            		</div>
+        		</a>
+                
+                <div id="soundcloud-track">
+                	<iframe width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/134815445&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
+				</div>      
+                
+            </div>
+            <!-- END oF BACKGROUND MUSIC -->         
             
 		</section><!-- ENF of MAIN SLIDER -->
         
@@ -555,11 +592,11 @@
                     			<div class="row">
                         			<div class="col-md-12">
                           				
-                                        <div id="thank-you" class="scale75-onmobile">                                  
-                     						<div id="thank" class="animation fadeInUp">
+                                        <div id="thank-you" class="scale75-onmobile animation fadeInUp">                                 
+                     						<div id="thank">
                                             	Thank
                                             </div>
-                                            <div id="you" class="animation fadeInUp">
+                                            <div id="you">
                                             	You
                                             </div>                                            
                                         </div>
@@ -608,7 +645,8 @@
         <!-- Custom Core Script -->
         <script type="text/javascript" src="js/script.js"></script>        
         <!-- Custom Additional Script -->
-        <script type="text/javascript" src="js/main-slider-fade.js"></script>      
-          
+        <script type="text/javascript" src="js/main-slider-fade.js"></script>
+        <script type="text/javascript" src="js/audio-control.js"></script>
+        
 	</body>
 </html>
