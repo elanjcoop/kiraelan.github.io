@@ -20,7 +20,7 @@
 			}
 		}
 	
-		$email_to  =  'your@email.com'; 
+		$email_to  =  'elanjcoop@email.com'; 
 		
 		$headers = "From: ".$_POST["inputemail"]."\r\n";	
 		$headers .= "Reply-To: ".$_POST["inputemail"]."\r\n";	
