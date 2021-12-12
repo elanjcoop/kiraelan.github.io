@@ -176,7 +176,7 @@
 			marker1_infowindow.open(map,marker1);	
   		});
 		
-		
+		/*
 		//INFO WINDOWS 2
 		//=======================================================================================
 		var contentString2 = ''+
@@ -297,7 +297,7 @@
 			marker6_infowindow.open(map,marker6);	
   		});
 		
-		
+		*/
 		
 		
 		
