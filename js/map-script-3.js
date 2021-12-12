@@ -94,7 +94,7 @@
        		labelAnchor: new google.maps.Point(88, 88),
        		labelClass: "labels" // the CSS class for the label
      	});
-		
+		/*
 		var marker2 = new MarkerWithLabel({
        		position: new google.maps.LatLng(40.88702242273053, -73.77976608718144),
        		draggable: false,
@@ -149,7 +149,7 @@
        		labelAnchor: new google.maps.Point(27, 27),
        		labelClass: "labels" // the CSS class for the label
      	});
-			
+			*/
   
 		
 		
@@ -158,7 +158,7 @@
 		var contentString1 = ''+
 		'<div class="info-window-wrapper">'+
 			'<h6>CEREMONY</h6>'+
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>'+
+			'<div class="info-window-desc">The location of Kira & Elan&#39s chuppah.</div>'+
 			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>'+
       	'</div>';
 		
