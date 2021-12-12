@@ -158,8 +158,8 @@
 		var contentString1 = ''+
 		'<div class="info-window-wrapper">'+
 			'<h6>CEREMONY</h6>'+
-			'<div class="info-window-desc">The location of Kira & Elan&#39s chuppah.</div>'+
-			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>'+
+			'<div class="info-window-desc">Glen Island Harbour Club: The location of Kira & Elan&#39s chuppah.</div>'+
+			'<div class="info-window-link"><a href="https://www.gi-hc.com/" class="grey-link with-underline">Click Here</a></div>'+
       	'</div>';
 		
 		var marker1_infowindow = new google.maps.InfoWindow({
