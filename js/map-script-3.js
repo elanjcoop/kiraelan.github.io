@@ -42,7 +42,7 @@
   		var mapOptions = {
     		zoom: 16,		
 			mapTypeId: google.maps.MapTypeId.ROADMAP,	
-    		center: new google.maps.LatLng(35.441921, -97.432528),
+    		center: new google.maps.LatLng(40.88702242273053, -73.77976608718144),
 			panControl: true,
   			zoomControl: true,
   			mapTypeControl: true,
@@ -85,7 +85,7 @@
 		//ADD NEW MARKER WITH LABEL
 		//=======================================================================================
 		var marker1 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.441921, -97.432528),
+       		position: new google.maps.LatLng(40.88702242273053, -73.77976608718144),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
@@ -96,7 +96,7 @@
      	});
 		
 		var marker2 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.440033, -97.437056),
+       		position: new google.maps.LatLng(40.88702242273053, -73.77976608718144),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
@@ -107,7 +107,7 @@
      	});
 		
 		var marker3 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.441899, -97.439043),
+       		position: new google.maps.LatLng(40.88702242273053, -73.77976608718144),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
@@ -118,7 +118,7 @@
      	});
 		
 		var marker4 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.443866, -97.437573),
+       		position: new google.maps.LatLng(40.88702242273053, -73.77976608718144),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
@@ -129,7 +129,7 @@
      	});
 		
 		var marker5 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.443835, -97.428649),
+       		position: new google.maps.LatLng(40.88702242273053, -73.77976608718144),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
@@ -140,7 +140,7 @@
      	});
 		
 		var marker6 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.439997, -97.427630),
+       		position: new google.maps.LatLng(40.88702242273053, -73.77976608718144),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
