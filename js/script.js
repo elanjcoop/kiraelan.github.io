@@ -493,7 +493,7 @@
 		
 		var gift_carousel = $("#gift-carousel");
     	gift_carousel.owlCarousel({
-			items : 4, 
+			items : 3, 
 			autoPlay: 2000,
 			stopOnHover: true,
 			pagination: true,
