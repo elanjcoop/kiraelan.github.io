@@ -306,10 +306,6 @@ a:hover{
 	margin:0;
 }
 
-.some-margin{
-	margin-top: 5vh;
-}
-
 img.fullwidth{
 	width:100%;
 }
@@ -2967,11 +2963,10 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 .gift-card{
 	width:100%; 
-	background-color:#FFF;
+	background-color:#FFF; 
 	text-align:center; 
 	padding:50px 40px;
 	margin-bottom:30px;
-	min-height: 30vh;
 }
 
 .gift-desc{
@@ -2979,6 +2974,10 @@ footer .image-divider.fixed-height{
 	margin-bottom:20px;
 }
 
+.gift-registry-logo {
+	max-width: 200px;
+	max-height: 100px;
+}
 
 /* ----------------------------------------------*/
 /* 15.6 Gallery				 			 	 */
