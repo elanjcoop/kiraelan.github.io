@@ -334,6 +334,25 @@ img.rounded{
 	margin:40px 0;
 }
 
+#livestream{
+	font-family: 'Great Vibes', cursive; 
+	font-size:85px;
+	margin:  auto;
+	text-align: center;
+	transition: all .2s ease-out;
+	color:  white;
+}
+
+#livestream:hover {
+	color:black;
+	transition: all .2s ease-in;
+}
+
+.livestream {
+	padding:150px 0;
+	background-color: #f98d8a;
+}
+
 /*===============================================*/
 /* 02. NAV BAR  	 							 */
 /*===============================================*/
