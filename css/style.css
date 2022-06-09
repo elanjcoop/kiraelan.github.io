@@ -356,7 +356,7 @@ img.rounded{
 
 #hotel{
 	font-family: 'Montserrat', sans-serif;
-	font-size:85px;
+	font-size:300%;
 	margin:  0;
 	transition: all .2s ease-out;
 	color:  black;
@@ -371,7 +371,7 @@ img.rounded{
 
 #hotel-title {
 	color:  black;
-	font-size:54px;
+	font-size:40%;
 	text-align: justify;
   display: inline-block;
 }
