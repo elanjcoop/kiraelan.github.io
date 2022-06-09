@@ -266,20 +266,20 @@ h4.inline, h5.inline, h6.inline{
 p{
 	font-family: 'Raleway', sans-serif;
 	font-size:16px;
-	line-height:27px;
-	margin-bottom:25px;
+	/*line-height:27px;*/
+	/*margin-bottom:25px;*/
 }
 
 p.lead{
 	font-size:20px;
-	line-height:30px;
+	/*line-height:30px;*/
 	font-weight:normal;
 }
 
-a{
+/*a{
 	text-decoration:none;
 	color:#f98d8a;
-}
+}*/
 
 a.grey-link{
 	color:#6a6a6a;
@@ -352,6 +352,47 @@ img.rounded{
 .livestream {
 	padding:150px 0;
 	background-color: #f98d8a;
+}
+
+#hotel{
+	font-family: 'Montserrat', sans-serif;
+	font-size:85px;
+	margin:  0;
+	transition: all .2s ease-out;
+	color:  black;
+	line-height: 1;
+}
+
+#hotel-section {
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#hotel-title {
+	color:  black;
+	font-size:54px;
+	text-align: justify;
+  display: inline-block;
+}
+
+#hotel-title:hover{
+	color:  #f98d8a;
+	transition: all .2s ease-in;
+}
+
+#hotel-text{
+	text-align: justify;
+	margin: 0;
+}
+
+.hotel {
+	padding:150px 0;
+	/*background-color: #f98d8a;*/
+}
+
+#hotel-button {
+font-size: 20px;
 }
 
 /*===============================================*/
